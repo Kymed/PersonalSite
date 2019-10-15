@@ -1,0 +1,141 @@
+html {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+ul,li,a, a:hover, a:focus, a:active{
+    text-decoration: none;
+    color: inherit;
+    outline: none;
+}
+a:hover{
+    filter:brightness(90%) !important;
+    cursor: pointer;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    line-height: 2em;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.box1 {
+    width: 50%;
+    text-align: center;
+}
+
+.box2 {
+    width: 50%;
+}
+
+h1 {
+    font-size: 6rem;
+    font-family: 'Permanent Marker', cursive;
+}
+
+h2 {
+    font-size: 1.75rem;
+}
+
+ul {
+    padding: 0;
+    margin-left: 10vw;
+    list-style-type: normal;
+}
+
+li {
+    margin-top: 8px;
+    font-size: 1.5rem;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+@media (max-width: 1200px) {
+    .container {
+        margin-right: 15vw;
+        display: block;
+    }
+    h1 {
+        font-size: 4rem;
+    }
+    h2 {
+        font-size: 1.5rem;
+    }
+    li {
+        font-size: 1.25rem;
+    }
+    p {
+        font-size: 1.25rem;
+    }
+    .box1{
+        width: auto;
+    }
+    .box2 {
+        width: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        margin-left: 10px;
+        margin-top: 25px;
+        margin-right: 25px;
+        display: block;
+    }
+    h1 {
+        font-size: 4rem !important;
+    }
+    h2 {
+        font-size: 1.5rem;
+    }
+    li {
+        font-size: 1.25rem;
+    }
+    p {
+        font-size: 1.25rem;
+    }
+    .box1{
+        width: auto;
+    }
+    .box2 {
+        width: auto;
+    }
+}
+
+.buttongroup {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+button {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    margin: 1rem;
+    background-color: #EA3160;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #fff;
+    color: #EA3160;
+    border: 1px solid #EA3160;
+    border-radius: 8px;
+}
