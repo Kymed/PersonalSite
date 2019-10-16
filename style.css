@@ -139,3 +139,7 @@ button:hover {
     border: 1px solid #EA3160;
     border-radius: 8px;
 }
+
+.maillink {
+    color: red;
+}
