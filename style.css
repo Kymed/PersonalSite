@@ -41,7 +41,7 @@ h1 {
 }
 
 h2 {
-    font-size: 1.75rem;
+    font-size: 1.5rem;
 }
 
 ul {
@@ -52,11 +52,11 @@ ul {
 
 li {
     margin-top: 8px;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 p {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 @media (max-width: 1200px) {
@@ -65,16 +65,16 @@ p {
         display: block;
     }
     h1 {
-        font-size: 3.5rem;
+        font-size: 3rem;
     }
     h2 {
-        font-size: 1.5rem;
+        font-size: 1.25rem;
     }
     li {
-        font-size: 1.25rem;
+        font-size: 1.05rem;
     }
     p {
-        font-size: 1.25rem;
+        font-size: 1.05rem;
     }
     .box1{
         width: auto;
@@ -92,16 +92,16 @@ p {
         display: block;
     }
     h1 {
-        font-size: 3.5rem;
+        font-size: 3rem;
     }
     h2 {
-        font-size: 1.5rem;
+        font-size: 1.25rem;
     }
     li {
-        font-size: 1.25rem;
+        font-size: 1.05rem;
     }
     p {
-        font-size: 1.25rem;
+        font-size: 1.05rem;
     }
     .box1{
         width: auto;
